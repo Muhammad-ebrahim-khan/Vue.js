@@ -1,6 +1,6 @@
 # Vue.js
 
-package.json
+<!--package.json-->
 
 {
   "name": "vue-todo-list",
@@ -23,7 +23,7 @@ package.json
   }
 }
 
-src/main.js
+<!--src/main.js-->
 
 import Vue from 'vue'
 import App from './App.vue'
@@ -38,7 +38,7 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
-src/App.vue
+<!--src/App.vue-->
 
 <template>
   <div id="app">
@@ -67,7 +67,7 @@ export default {
 }
 </style>
 
-src/components/TodoList.vue
+<!--src/components/TodoList.vue-->
 
 <template>
   <div>
@@ -137,7 +137,7 @@ button:hover {
 }
 </style>
 
-src/components/TodoItem.vue
+<!--src/components/TodoItem.vue-->
 
 <template>
   <li>
@@ -170,7 +170,7 @@ export default {
 }
 </style>
 
-src/store.js
+<!--src/store.js-->
 
 import Vue from 'vue'
 import Vuex from 'vuex'
